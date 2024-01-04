@@ -29,12 +29,24 @@ nav{
 span{
 	color: #f9004d;
 }
-nav ul li{
+nav ul {
+	width: 100%;
 	list-style-type: none;
-	display: inline-block;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
 	padding: 10px  25px;
+	gap: 30px;
+
 }
 .aboutbtn{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+    cursor: pointer;
+}
+.servicebtn{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
