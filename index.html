@@ -1,160 +1,150 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio website</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <title>Portfolio website</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!----hero Section start---->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
 
-    <div class="hero">
-      <nav>
-        <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
-          <li type="button" class="homebtn">Home</li>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <div class="hero">
+    <nav>
+      <!-- <h2 class="logo">Portfo<span>lio</span></h2> -->
+      <ul>
+        <li type="button" class="homebtn">Home</li>
+        <a href="#about" style="text-decoration: none;">
           <li type="button" class="aboutbtn">About Me</li>
-          <!-- <li><a href="#">Services</a></li> -->
-          <!-- <li type="button" class="">Skills</></li> -->
-          <!-- <li type="button" class="contactbtn">Contact Me</li> -->
-        </ul>
-        <!-- <a href="#" class="btn">Subscribe</a> -->
-      </nav>
+        </a>
+        <a href="#projects" style="text-decoration: none;">
+          <li type="button" class="servicebtn">Projects</li>
+        </a>
 
-      <div class="content">
-        <h4>Hello, my name is</h4>
-        <h1>Nishant <span>Yadav</span></h1>
-        <h3>
-          I'am a Web Developer and an enthusiast Data structure and Algorithm
-          learner.
-        </h3>
-        <!-- <div class="newslatter">
-				<form>
-					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
-					<input type="submit" name="submit" value="Lets Start">
-                    
-				</form>
-			</div> -->
+      </ul>
+
+    </nav>
+
+    <div class="content">
+      <h4>Hello, my name is</h4>
+      <h1>Nishant <span>Yadav</span></h1>
+      <h3>
+        Dedicated and skilled Flutter app developer <br> with experience of creating efficient mobile
+        applications.<br> Seeking opportunities to contribute my expertise in Flutter development to a dynamic team.
+      </h3>
+
+    </div>
+  </div>
+
+  <a id="about"></a>
+  <section class="about">
+    <div class="main">
+      <img src="imageindex.jpeg" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5> Flutter App Developer</h5>
+
+        <p>
+
+          <span style="color: white;">Languages</span> : Dart<br>
+          <span style="color: white;">Development</span> : Flutter<br>
+          <span style="color: white;">UX Design</span>: Material Design principles<br>
+          <span style="color: white;">Management</span>: Provider, Bloc<br>
+          <span style="color: white">Database</span> Firebase<br>
+          <span style="color: white;">Version Control</span>: Git, GitHub<br>
+          <span style="color: white;">Integration</span>: RESTful APIs<br>
+
+          <span style="color: white;">Platform</span>: Android, iOS<br>
+        </p>
+
       </div>
     </div>
+  </section>
 
-    <!----About section start---->
-    <section class="about">
-      <div class="main">
-        <img src="imageindex.jpeg" />
-        <div class="about-text">
-          <h2>About Me</h2>
-          <h5>Developer</h5>
-          <!-- <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p> -->
-          <p>
-            I am currently learning web Development and DSA.<br />My current
-            rank on GFG is < 190000 and institute rank is 18.
+  <a href="" id="projects"></a>
+  <section class="service ">
+    <div class="title">
+      <h2>My Projects</h2>
+    </div>
+
+    <div class="box">
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Trip Yaatra App</h5>
+        <div class="pra">
+          <p>This App was made by me for tour and travel company.</p>
+
+          <p style="text-align: center;">
+            <a class="button" href="https://github.com/Nishant717/Trip-Yaatra">Read More</a>
           </p>
-          <!-- <button type="button">Let's Talk</button> -->
         </div>
       </div>
-    </section>
 
-    <!-----service section start----------->
-    <!-- <div class="service">
-		<div class="title">
-			<h2>Our Services</h2>
-		</div>
+      <div class="card">
+        <!-- <i class="far fa-user"></i> -->
+        <i class="fas fa-bars"></i>
+        <h5>Spotify-Clone</h5>
+        <div class="pra">
+          <p>This is a Spotify-Clone app with the feature of song playing pausing forward backward.</p>
 
-		<div class="box">
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
-				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-
-			<div class="card">
-				<i class="far fa-user"></i>
-				<h5>Web Development</h5>
-				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-
-			<div class="card">
-				<i class="far fa-bell"></i>
-				<h5>Web Development</h5>
-				<div class="pra">
-					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-    <!-- ----Contact Me------> 
-    <!-- <div class="contact-me">
-		<p>Let Me Get You A Beautiful Website.</p>
-		<a class="button-two" href="#">Hire Me</a>
-	</div> -->
-
-    <!-- ------footer start------- -->
-    <footer>
-        
-      <p>Nishant Yadav</p>
-      <p>For any information and help you can contact me on this platform.</p>
-      <div class="social">
-        <a href="https://www.linkedin.com/in/yadvnishant/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a href="https://www.instagram.com/yadv_nishant/"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <!-- <a href="#"><i class="fab fa-dribbble"></i></a> -->
+          <p style="text-align: center;">
+            <a class="button" href="https://github.com/Nishant717/Spotify-Clone">Read More</a>
+          </p>
+        </div>
       </div>
-    
-      <p class="end">Made By Nishant Yadav with ❤️</p>
-    </footer>
-    <script>
-      let btn = document.querySelector(".aboutbtn");
-      let el = document.querySelector(".about");
 
-      btn.addEventListener("click", function () {
-        el.scrollIntoView(true);
-      });
-      let btn1 = document.querySelector(".homebtn");
-      let el1 = document.querySelector(".home");
+      <div class="card">
+        <!-- <i class="far fa-bell"></i> -->
+        <i class="fas fa-bars"></i>
+        <h5>Beautiful-soup</h5>
+        <div class="pra">
+          <p>In this I have extracted data from the flipkart to use it in my App</p>
 
-      btn1.addEventListener("click", function () {
-        el1.scrollIntoView(true);
-      });
-    //   let btn2 = document.querySelector(".contactbtn");
-    //   let el2 = document.querySelector(".contact");
+          <p style="text-align: center;">
+            <a class="button" href="https://github.com/Nishant717/Beautiful-soup">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    //   btn2.addEventListener("click", function () {
-    //     el2.scrollIntoView(true);
-    //   });
-    </script>
-  </body>
+
+  <footer>
+
+    <p>Nishant Yadav</p>
+    <p>For any information and help you can contact me on this platform.</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/yadvnishant/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/yadv_nishant/"><i class="fab fa-instagram"></i></a>
+
+    </div>
+
+    <p class="end">CopyRight By Nishant Yadav</p>
+  </footer>
+  <script>
+    let btn = document.querySelector(".aboutbtn");
+    let el = document.querySelector(".about");
+
+    btn.addEventListener("click", function () {
+      el.scrollIntoView(true);
+    });
+    let btn1 = document.querySelector(".homebtn");
+    let el1 = document.querySelector(".home");
+
+    btn1.addEventListener("click", function () {
+      el1.scrollIntoView(true);
+    });
+
+  </script>
+</body>
+
 </html>
